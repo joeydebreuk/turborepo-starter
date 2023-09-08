@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "isolatedModules": false,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "esnext",
+    "incremental": true,
+    "types": [
+      "vitest/importMeta"
+    ]
+  },
+  "include": [
+    "./**/*",
+    "./**/.*"
+  ],
+  "exclude": [
+    "./**/**/build",
+    "./**/**/dist",
+    "./**/**/cdk.out",
+    "node_modules",
+    ".tmp/**/*.ts"
+  ]
+}

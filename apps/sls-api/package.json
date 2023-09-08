@@ -1,0 +1,14 @@
+{
+  "name": "sls-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "serverless offline",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@packages/logger": "workspace:*"
+  },
+  "devDependencies": {
+  }
+}
